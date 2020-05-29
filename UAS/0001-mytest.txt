@@ -1,8 +1,5 @@
 Script started on Fri May 29 22:24:40 2020
 alvia.dibby@badak:~$ PS1="$ "
-$ ^C
-$ ^C
-$ ^C
 $ echo $GitHubUser
 alviadibby
 $ echo $PSTAMP
