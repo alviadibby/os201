@@ -1,9 +1,9 @@
 ---
 ---
+# Hello World!
+## Welcome to Alvia's Repo :)
 
-# Alvia Dibby's GitHub Page
-
-Hello World! Selamat datang
+This is a repository for storing my OS course’s Weekly Log file.
 
 * [URLs](URL/)
 
