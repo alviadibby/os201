@@ -1,0 +1,37 @@
+Script started on Mon Jun  8 20:56:40 2020
+alvia.dibby@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+alviadibby
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-205703-c250-UAS/> 
+$ PS1="\$(eval \$PSTAMP)"
+200608-205711-4021-UAS/> echo -e $CEKSAYA
+alviadibby ZCZCSCRIPTSTART 200529-222440 alviadibby 
+ alviadibby alviadibby 200529-222831-67ff-alvia.dibby/ 200529-222831 SEQOK SUMOK 67ff493e 
+ alviadibby alviadibby 200529-222847-20eb-alvia.dibby/ 200529-222847 SEQOK SUMOK 20eb7665 
+ alviadibby alviadibby 200529-222953-ede4-alvia.dibby/ 200529-222953 SEQOK SUMOK ede48cb2 
+ alviadibby alviadibby 200529-223046-9558-alvia.dibby/ 200529-223046-9558 SEQOK SUMOK 9558d4fd 
+ alviadibby ZCZCSCRIPTSTOP 200529-223131 SEQOK 
+
+200608-205727-de27-UAS/> echo -e $CEKSEBELA1
+alviadibby ZCZCSCRIPTSTART 200605-142030 amaliahanisa 
+ alviadibby amaliahanisa 200605-142202-b0b7-amalia.hanisafitri/ 200605-142202 SEQOK SUMOK b0b7af50 
+ alviadibby amaliahanisa 200605-142210-1db9-amalia.hanisafitri/ 200605-142210 SEQOK SUMOK 1db9ec35 
+ alviadibby amaliahanisa 200605-142222-46c7-amalia.hanisafitri/ 200605-142222 SEQOK SUMOK 46c7a517 
+ alviadibby amaliahanisa 200605-142222-a79c-amalia.hanisafitri/ 200605-142404 SEQOK SUMOK a79ce7d5 
+ alviadibby ZCZCSCRIPTSTOP 200605-142413 SEQOK 
+
+200608-205738-e421-UAS/> echo -e $CEKSEBELA2
+alviadibby ZCZCSCRIPTSTART 200605-113616 amrisandha 
+ alviadibby amrisandha 200605-113653-119e-UAS/ 200605-113653 SEQOK SUMOK 119e4f62 
+ alviadibby amrisandha 200605-113701-ce12-UAS/ 200605-113701 SEQOK SUMOK ce12b275 
+ alviadibby amrisandha 200605-113710-1c96-UAS/ 200605-113710 SEQOK SUMOK 1c9627f6 
+ alviadibby amrisandha 200605-113720-f25b-UAS/ 200605-113720 SEQOK SUMOK f25be399 
+ amrisandha ZCZCSCRIPTSTOP 200605-113728 SEQOK 
+
+200608-205748-3891-UAS/> exit
+exit
+
+Script done on Mon Jun  8 20:57:51 2020
