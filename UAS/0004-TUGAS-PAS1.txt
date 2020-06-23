@@ -1,12 +1,12 @@
 Script started on Mon Jun  8 21:08:31 2020
-alvia.dibby@badak:~/UAS$ PS1="$ "
+]0;alvia.dibby@badak: ~/UASalvia.dibby@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 alviadibby
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
 200608-210855-94e4-UAS/> 
-$ PS1="\$(eval \$PSTAMP)"
+$ PS1="\$(eval \$PSTAMP)"
 200608-210905-bc31-UAS/> echo -e $CEKSAYA
 alviadibby ZCZCSCRIPTSTART 200529-222440 alviadibby 
  alviadibby alviadibby 200529-222831-67ff-alvia.dibby/ 200529-222831 SEQOK SUMOK 67ff493e 
