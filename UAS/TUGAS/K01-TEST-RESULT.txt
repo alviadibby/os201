@@ -1,0 +1,102 @@
+Script started on Tue Jun 30 16:31:06 2020
+]0;alvia.dibby@badak: ~/pribadi/UAS/TUGASalvia.dibby@badak:~/pribadi/UAS/TUGAS$ PS1="$ "
+$ date
+Tue Jun 30 16:31:28 WIB 2020
+$ echo $HOSTNAME
+badak
+$ echo $akunGitHub
+alviadibby
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1;echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200630-163157-4d3b-TUGAS/> make clean
+rm -f p00 p06 p03 p05 p01 p04 p02 SharedMemoryFile.bin
+200630-163203-6b30-TUGAS/> ./p00
+bash: ./p00: No such file or directory
+200630-163232-3ee3-TUGAS/> make
+gcc -std=gnu11 -pthread    p00.c share.c share.h   -o p00
+gcc -std=gnu11 -pthread    p06.c share.c share.h   -o p06
+gcc -std=gnu11 -pthread    p03.c share.c share.h   -o p03
+gcc -std=gnu11 -pthread    p05.c share.c share.h   -o p05
+gcc -std=gnu11 -pthread    p01.c share.c share.h   -o p01
+gcc -std=gnu11 -pthread    p04.c share.c share.h   -o p04
+gcc -std=gnu11 -pthread    p02.c share.c share.h   -o p02
+200630-163239-ec06-TUGAS/> ./p03
+alviadibby[START PID[7037] PPID[6764]]
+No "SharedMemoryFile.bin" file.
+200630-163250-6cef-TUGAS/> ./p00
+GibranBrahmanta[START PID[7073] PPID[6764]]
+ryaasabsar[START PID[7074] PPID[7073]]
+alviadibby[START PID[7076] PPID[7073]]
+naufalhilmi12345[START PID[7075] PPID[7073]]
+alkwrzm[START PID[7077] PPID[7073]]
+luthfiidrus[START PID[7078] PPID[7073]]
+aditmuhmd[START PID[7079] PPID[7073]]
+naufalhilmi12345[progs[00] TIME[03] MUTEX[02] MMAP[OPEN] [][]]
+naufalhilmi12345[progs[00] TIME[07] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][][][]]
+naufalhilmi12345[BYEBYE =====  ===== =====]
+GibranBrahmanta[progs[01] TIME[08] MUTEX[02] MMAP[OPEN] [naufalhilmi12345][][][]]
+ryaasabsar[progs[02] TIME[09] MUTEX[02] MMAP[OPEN] [naufalhilmi12345][][][]]
+aditmuhmd[progs[03] TIME[11] MUTEX[02] MMAP[OPEN] [naufalhilmi12345][][][][]]
+luthfiidrus[progs[04] TIME[16] MUTEX[02] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][][]]
+ryaasabsar[progs[02] TIME[17] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][][]]
+ryaasabsar[BYEBYE =====  ===== =====]
+aditmuhmd[progs[03] TIME[19] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][][][]]
+aditmuhmd[BYEBYE =====  ===== =====]
+GibranBrahmanta[progs[01] TIME[20] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][][][]]
+alkwrzm[progs[05] TIME[21] MUTEX[02] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][][][]]
+alviadibby[progs[06] TIME[23] MUTEX[02] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][][]]
+luthfiidrus[progs[04] TIME[24] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][][]]
+luthfiidrus[BYEBYE =====  ===== =====]
+alkwrzm[progs[05] TIME[26] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][]]
+alkwrzm[BYEBYE =====  ===== =====]
+alviadibby[progs[06] TIME[28] MUTEX[04] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alviadibby[BYEBYE =====  ===== =====]
+GibranBrahmanta[BYEBYE =====  ===== =====]
+200630-163322-c959-TUGAS/> ./p03
+alviadibby[START PID[7437] PPID[6764]]
+ShareMemory is NOT OPEN, BYE BYE ==== ====
+200630-163358-491f-TUGAS/> ./p00 x
+GibranBrahmanta[START PID[7547] PPID[6764]]
+ShareMemory is OPEN, BYE BYE ==== ====
+200630-163407-6602-TUGAS/> ./p03
+alviadibby[START PID[7580] PPID[6764]]
+alviadibby[progs[06] TIME[30] MUTEX[07] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alviadibby[progs[06] TIME[32] MUTEX[09] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alviadibby[BYEBYE =====  ===== =====]
+200630-163439-d8a1-TUGAS/> ./p00
+GibranBrahmanta[START PID[7639] PPID[6764]]
+ryaasabsar[START PID[7640] PPID[7639]]
+naufalhilmi12345[START PID[7641] PPID[7639]]
+alviadibby[START PID[7642] PPID[7639]]
+luthfiidrus[START PID[7644] PPID[7639]]
+alkwrzm[START PID[7643] PPID[7639]]
+aditmuhmd[START PID[7645] PPID[7639]]
+naufalhilmi12345[progs[00] TIME[35] MUTEX[07] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+naufalhilmi12345[progs[00] TIME[39] MUTEX[09] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+naufalhilmi12345[BYEBYE =====  ===== =====]
+GibranBrahmanta[progs[01] TIME[40] MUTEX[06] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+ryaasabsar[progs[02] TIME[41] MUTEX[07] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+aditmuhmd[progs[03] TIME[43] MUTEX[07] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+luthfiidrus[progs[04] TIME[48] MUTEX[07] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+ryaasabsar[progs[02] TIME[49] MUTEX[09] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+ryaasabsar[BYEBYE =====  ===== =====]
+aditmuhmd[progs[03] TIME[51] MUTEX[09] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+aditmuhmd[BYEBYE =====  ===== =====]
+GibranBrahmanta[progs[01] TIME[52] MUTEX[08] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alkwrzm[progs[05] TIME[54] MUTEX[07] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alviadibby[progs[06] TIME[55] MUTEX[12] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+luthfiidrus[progs[04] TIME[56] MUTEX[09] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+luthfiidrus[BYEBYE =====  ===== =====]
+alkwrzm[progs[05] TIME[59] MUTEX[09] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alkwrzm[BYEBYE =====  ===== =====]
+alviadibby[progs[06] TIME[60] MUTEX[14] MMAP[OPEN] [naufalhilmi12345][GibranBrahmanta][ryaasabsar][aditmuhmd][luthfiidrus][alkwrzm][alviadibby]]
+alviadibby[BYEBYE =====  ===== =====]
+GibranBrahmanta[BYEBYE =====  ===== =====]
+200630-163512-d33e-TUGAS/> ./p03
+alviadibby[START PID[7735] PPID[6764]]
+ShareMemory is NOT OPEN, BYE BYE ==== ====
+200630-163540-80c0-TUGAS/> exit
+exit
+
+Script done on Tue Jun 30 16:35:55 2020
