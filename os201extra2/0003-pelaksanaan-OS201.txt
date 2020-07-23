@@ -1,0 +1,100 @@
+REV01 Thu Jul 23 22:21:00 WIB 2020
+==================================
+
+Alvia Dibby Shadqah/A/1806191004/alviadibby
+
+PELAKSANAAN OS201
+=================
+
+
+Buat sebuah catatan singkat pelaksanaan mata ajar OS selama semester ini
+========================================================================
+Pelaksanaan mata ajar Operation System (OS) diawali dengan melakukan pertemuan tatap muka seperti proses pembelajaran pada umumnya. Pak RMS selaku dosen OS kelas A,B,C menerangkan materi dan memberikan kesempatan bagi mahasiswa untuk melakukan tanya jawab pada setiap pertemuan. Seluruh materi, informasi, dan juga latihan soal untuk mata kuliah OS dapat diakses di https://os.vlsm.org/. Mata kuliah OS menyediakan fasilitas demo yang mendukung para mahasiswa untuk mempelajari setiap materi serta dapat dituntaskan guna mendapatkan pemahaman dan pendalaman materi secara mandiri. Diharapkan, mahasiswa telah mempelajari demo sebelum kelas berlangsung. Selain mencoba demo yang disediakan, mahasiswa juga disarankan untuk membuat sebuah memo berkala untuk mencatat apa saja yang telah kami pelajari pada setiap minggunya yang nantinya dapat membantu mahasiswa dalam pelaksanaan ujian. Selain itu, dibuat pula grup WhatsApp untuk memperlancar komunikasi dengan dosen serta menyimpan dokumentasi hasil pembelajaran di kelas (foto papan tulis). Di pertengahan kuliah, muncul pandemi COVID-19 yang mengakibatkan pembelajaran harus diubah menjadi metode Online atau pembelajaran jarak jauh (PJJ). Untuk pembelajaran pada masa PJJ, pertemuan kelas yang biasanya dilakukan 2x seminggu digantikan dengan diskusi pada forum di scele. Tim dosen juga menyediakan video pembelajaran online untuk memperdalam pemahaman mahasiswa. 
+
+
+Bandingkan pelaksanaan pengajaran sebelum dan sesudah UTS
+=========================================================
+Sebelum UTS
+1) Pembelajaran dilakukan secara tatap muka
+2) Melakukan tanya jawab di dalam kelas
+3) Membuat memo setiap minggu yang berisi materi pengajaran pada minggu tersebut
+4) Komunikasi melalui Whatsapp
+
+
+Sesudah UTS
+1) Pembelajaran dilakukan secara online melalui video yang sudah tertera pada SCELE
+2) Melakukan tanya jawab melalui forum pada scele
+3) Tidak diminta mengumpulkan memo
+4) Komunikasi melalui Whatsapp
+
+
+Bandingkan pelaksanaan UTS OS dengan UTS lainnya
+================================================
+UTS OS
+1) Dilaksanakan secara tatap muka
+2) Soal terdiri dari isian dan esai
+2a) Tidak ada soal tipe B/S atau PG
+3) Pelaksanaan ujian berbasis kertas
+4) Tipe soal yang dikeluarkan beragam
+
+UTS lainnya
+1) Dilaksanakan secara online
+2) UTS mata kuliah Sistem Informasi Akuntansi hanya terdiri atas soal pilihan ganda
+3) UTS mata kuliah Sistem-Sistem Perusahaan terdiri atas soal pilihan ganda, B/S, dan esai
+4) UTS mata kuliah Basis Data terdiri atas soal pilihan ganda dan esai
+5) UTS mata kuliah Statistika dan Probabilitas
+6) UTS mata kuliah Analisis Numerik terdiri atas soal essay dan membuat program
+6a) Soal essay dikelompokkan dengan topik masing-masing dengan tiap kelompok soal terdiri atas banyak soal
+6b) Mahasiswa dibebaskan memilih soal namun diwajibkan untuk mengisi minimal satu dari setiap topik yang diujikan dan diperhatikan agar dapat mencapai 100 poin
+7) UTS mata kuliah Advanced Programming terdiri atas soal pilihan ganda, isian, dan mengedit program melalui GitLab.
+7a) Untuk sesi edit program, terdiri dari 3 sesi waktu
+8) UTS mata kuliah Teori Bahasa dan Automata terdiri atas soal esai
+8a) Mahasiswa melakukan scan dan mengunggahnya ke server Aren
+9) UTS mata kuliah Aljabar Linear terdiri atas soal esai
+10) Pelaksanaan ujian berbasis scele
+11) Untuk soal pilihan ganda dan B/S salah berbentuk kuis
+12) Untuk soal esai dikerjakan pada kertas, lalu di foto dan di upload 
+
+
+Bandingkan pelaksanaan UAS OS dengan UAS lainnya
+================================================
+UAS OS
+1) Dilaksanakan dalam beberapa tahap (PAS0-PAS5)
+2) Setiap tahapnya memiliki waktu yang panjang
+3) Pengumuman terkait ujian diberikan melalui grup Whatsapp setiap harinya
+4) Metode pengumpulannya push file diperlukan ke repo github
+5) Pengisian absen dilakukan melalui github
+6) Ada tahap yang dikerjakan secara berkelompok
+7) Soal diunggah ke github dan harus di-decrypt terlebih dahulu
+8) Sebagian besar file yang di push harus dienkripsi
+8a) Key enkripsi hanya dimiliki oleh peserta ujian pembuat file dan dosen pengampu ujian agar tidak dapat dilihat oleh orang lain
+9) Beberapa file ada yang diminta untuk diberi tanda-tangan digital
+
+UAS lainnya
+1) Dilaksanakan dalam 1 tahap dan satu waktu
+2) Setiap sesi memiliki waktu pengerjaan yang pendek (<1 jam per sesinya)
+3) UAS TBA menggunakan server aren
+3a) Soal pembuatan machine akan diterima oleh judge otomatis yang hasilnya akan keluar setelah ujian selesai, sedangkan untuk soal essay akan upload hasil scan ke tempat yang sudah di sediakan
+4) UAS Statprob dilaksanakan dalam total 3 jam
+4a) Pengerjaan dibagi menjadi beberapa tahap yang masing masing tahap akan keluar 1-3 soal yang dikerjakan dengan kurun waktu 15-25 menit
+4b) Pengerjaan diawasi dengan kamera oncam yang menyala dengan pembatasan penggunaan alat elektronik selain laptop
+5) UAS Basdat terdiri atas soal pilihan ganda dan essay
+5a) Dilaksanakan dengan total 3 jam pengerjaan pada scele.cs.ui.ac.id
+5b) Untuk soal pilihan ganda, nilai dapat langsung diketahui setelah submit
+6) UAS SSP terdiri atas soal pilihan ganda dan essay
+6b) Dilaksanakan dengan total 2 jam 45 menit pengerjaan pada scele.cs.ui.ac.id
+7) UAS SIAK terdiri atas soal pilihan ganda dan essay
+7a) Dilaksanakan dengan total 3 jam pengerjaan pada scele.cs.ui.ac.id
+7b) Untuk soal pilihan ganda, nilai dapat langsung diketahui setelah submit
+8) UAS Advanced Programming terdiri atas soal pilihan ganda, essay, dan melengkapi program
+8b) Dilaksanakan dengan menggunakan scele.cs.ui.ac.id
+8c) Total waktu pengerjaan 3 jam
+9) UAS Sistem Cerdas terdiri atas soal essay
+9a) Diberikan waktu 2 jam 45 menit untuk mengerjakan serta 15 menit untuk mengupload jawaban
+9b) Bersifat closed book dengan sebelumnya membuat perjanjian untuk berlaku jujur selama ujian
+9c) Selama ujian, semua berkas perkuliahan yang ada di SCELE di hide
+10) UAS Analisis Numerik terdiri atas soal essay dan membuat program
+10a) Soal essay dikelompokkan dengan topik masing-masing dengan tiap kelompok soal terdiri atas banyak soal
+10b) Tiap topik memiliki nilai maksimum sehingga tidak perlu mengerjakan semuanya.
+10c) Terdapat banyak soal-soal yang belum pernah diajarkan sebelumnya sehingga mahasiswa dituntut untuk mencari solusi di Google
+10d) Waktu pengerjaan adalah 3 jam
