@@ -1,0 +1,78 @@
+REV01 Tue Jul 28 22:59:00 WIB 2020
+==================================
+
+
+Alvia Dibby Shadqah/A/1806191004/alviadibby
+
+CATATAN TAMBAHAN
+================
+
+
+Penjelasan (dugaan) mengenai hal-hal berikut:
+=============================================
+1) Scripting
+Scripting adalah kegiatan menulis serangkaian perintah untuk dieksekusi oleh shell. Scripting dapat menggabungkan perintah yang kita lakukan pada bash yang panjang dan berulang dari ke dalam satu script line function call.
+Hasil Scripting yang disimpan dapat mempermudah user untuk record perintah yang pernah dilakukan dan recalling perintah yang sudah dilakukan. 
+Bash Linux tersedia di hampir semua varian Linux dan tidak memerlukan instalasi terpisah, untuk memulai Scripting dapat menggunakan command "script namafile.txt" namafile.txt adalah file baru yang akan menyimpan hasil dari script tersebut. hasil dari script memuat,
+1. Tanggal dan jam dari "Script started"
+2. Tanggal dan jam dari "Script done"
+3. Tanggal dan jam dari "Prompt"
+dan untuk menyelesaikan script dapat menggunakan command "exit" dan hasil script sudah tersimpan pada file baru tadi.
+
+2) FUSE
+FUSE adalah singkatan dari Filesystem in Userspace merupakan suatu software interface pada UNIX.
+Fitur paling penting dari FUSE adalah FUSE memperbolehkan non-privileged user untuk melakukan mount dengan aman.
+Biasanya FUSE digunakan untuk membuat virtual file system.
+Untuk membuat FUSE ada 3 hal yang harus dibuat, yaitu kernel side module, libfuse, dan aplikasinya
+
+Untuk mengimplementasikan file system kita harus menulis program terlebih dahulu yang akan berfungsi untuk melakukan mount pada file system yang baru, merespon jika ada operasi read/write/stat dan program ini juga akan akan tertaut dengan libfuse. Ketika filesyetem berhasil di mount, handler akan teregister dengan kernel dan meneruskan operasi read/write/stat/ kepada handler untuk dilakukan respon terhadap operasi tersebut.
+
+3) git
+Git adalah version control system yang digunakan para developer untuk mengembangkan software secara bersama-bersama.
+Fungsi utama git yaitu mengatur versi dari source code program Anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti.
+
+Perintah-perintah dasar git:
+Git init : untuk membuat repository pada file lokal yang nantinya ada folder .git
+Git status : untuk mengetahui status dari repository lokal
+Git add : menambahkan file baru pada repository yang dipilih
+Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.
+Git branch : melihat seluruh branch yang ada pada repository
+Git checkout : menukar branch yang aktif dengan branchyang dipilih
+GIt merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
+Git clone : membuat Salinan repository lokal
+
+4) GitHub
+GitHub adalah sebuah aplikasi berbasis website dengan Version Control System (VCS) yang menyediakan layanan untuk menyimpan repository dengan gratis.
+Repository merupakan tempat yang dapat Anda gunakan untuk menyimpan berbagai file berupa source code.
+Namun tak hanya itu, dengan aplikasi ini Anda juga dapat melakukan kolaborasi dalam mengerjakan project tertentu agar dapat terus melakukan update secara rutin, termasuk melacak dan menyimpan perubahan-perubahan yang terjadi dalam project tersebut.
+Aplikasi ini termasuk sangat populer dan banyak digunakan termasuk oleh perusahaan-perusahaan besar skala gunia seperti Facebook, Google, dan Twitter.
+
+5) GitHub Page
+Github Pages adalah fasilitas hosting web statis (html, css, javascript) yang diberikan secara gratis dengan subdomain .github.io.
+Github Pages sangat berguna untuk  membuat dokumentasi misalnya untuk suatu repo karena Github Pages dapat mempublikasikan website dari repo kita dengan mudah dan gratis Github Pages.
+Dan untuk mempublikasikan halaman web di Github page dapat dilakukan dengan beberapa cara :
+Github page dari Root repo
+Github page di folder
+Github page di branch gh-page
+
+6) GnuPG
+GnuPG adalah suatu software yang dipakai untuk melakukan proses enkripsi data, dekripsi data, dan penandatanganan digital untuk selanjutnya dilakukan proses pertukaran data antar perangkat.
+GnuPG juga dikenal sebagai GPG yaitu suatu command line yang dapat dijalankan melalui aplikasi Terminal di setiap sistem operasi dengan fitur easy integration dengan aplikasi lainnya.
+Enkripsi dengan GPG ini sudah mengimplementasikan standar yang dijelaskan dalam RFC4880 (dikenal juga dengan standar PGP).
+GPG juga dilengkapi dengan fungsi manajemen kunci keamanan seperti pembuatan kunci, penyuntingan kunci, dan penghapusan kunci keamanan.
+
+Dengan model enkripsi yang digunakan pada GPG, seseorang pasti mempunyai sepasang kunci keamanan yaitu Private Key dan Public Key. Dimana Private Key adalah kunci enkripsi yang hanya boleh diakses oleh pemilik kunci, sedangkan public key sebisa mungkin harus disebarkan seluas-luasnya.
+
+7) SHA1SUM
+SHA1SUM adalah program/perintah yang menghitung dan memverifikasi hash yang menggunakan SHA1 (Secure Hash Algorithm 1).
+Program ini sudah terpasang pada sebagian besar sistem operasi yang menggunakan Linux.
+Pada UAS OS genap 2020, file “SHA1SUM” digunakan sebagai berkas yang menyimpan hash berkas-berkas yang diupload di GitHub.
+Melalui berkas tersebut, kita bisa mengetahui apakah file tersebut adalah file original atau bukan karena jika ada berkas yang diubah sedikitpun (termasuk waktu pembuatan), file tersebut akan menerima hash yang berbeda.
+
+8) SHA1SUM.asc
+Format .asc merupakan format untuk berkas ASCII lapis baja yang digunakan oleh suatu software yang dipakai untuk melakukan proses enkripsi data seperti PGP atau GnuPG.
+File tersebut berisi pesan yang ditandatangani secara digital dan dapat menyimpan informasi tertulis teks biasa, serta informasi biner yang disandikan sebagai teks.
+File ASC juga menyertakan kunci sebagai teks yang ditandatangani jelas, yang dapat diverifikasi menggunakan metode otentikasi.
+Oleh karena itu SHA1SUM.asc merupakan berkas dimana berisi sebuah hasil enkripsi SHA1SUM yang nantinya dapat diverifikasi dan didekripsi (oleh yang berhak) untuk melihat informasi asli yang ada.
+
