@@ -1,11 +1,59 @@
+REV02 Thu Jul 30 22:54:00 WIB 2020
 REV01 Tue Jul 28 22:59:00 WIB 2020
 ==================================
 
 
 Alvia Dibby Shadqah/A/1806191004/alviadibby
 
+
 CATATAN TAMBAHAN
 ================
+1) Persiapan UAS
+Kendala :
+- Kesulitan dalam memahami beberapa perintah yang diberikan
+- Mahasiswa lupa cara membuat key dan enkripsi
+- Tidak tahu cara melakukan beberapa perintah
+
+Kelebihan :
+- Cukup mudah dilakukan
+- Terdapat langkah-langkah yang mudah dipahami
+- Bobot nilai yang diberikan sangat membantu
+- Mudah diakses karena penjelasan berada di scele
+- Waktu yang diberikan cukup lama
+- Terdapat log untuk memantau kesalahan
+
+Kekurangan :
+- Kurangnya penjelasan mengenai tujuan persiapan dan gambaran pelaksanaan UAS
+- Langkah pengerjaan ditulis bergabung dengan penjelasan persiapan sehingga terlihat terlalu padat
+- File copy paste langsung ke github.com dapat menyebabkan error
+
+2) Tahap 1:
+Kendala :
+- Kemampuan penggunaan terminal pada linux yang kurang menghambat proses pengerjaan
+- Kemampuan untuk pembuatan script yang menurut saya sudah cukup advanced yang sangat dibutuhkan disini cukup menghambat proses pengerjaan
+
+Kelebihan :
+- Adanya dokumentasi yang diberikan 
+- Adanya contoh mengenai github pages yang telah memenuhi syarat. Yaitu, pada github cbkadal.
+- Menjadi tahu bagaimana caranya scripting tingkat lanjut, namun bagusnya lagi hal ini tidak menjadi urgensi mahasiswa karena mahasiswa tetap dapat menyelesaikan tahap ini dengan melakukan pengecekan secara manual.
+- Menjadi tahu bagaimana membuat endpoint baru untuk url pada github pages.
+
+Kekurangan :
+- Kurang penjelasan terkait dengan soal yang dimaksud, beberapa seperti contoh SEQNO dan SUMNO yang tidak terdapat pada soal. Hal ini baru dapat diketahui setelah terdapat mahasiswa yang menanyakan melalui forum di scele.
+
+3) Tahap 2:
+Kendala :
+- Perubahan yang cukup besar antara tahap 1 dengan tahap 2 yang ternyata tahap 2 jauh lebih rumit dibandingkan tahap 1, membuat mahasiswa kebingungan.
+- Pada awal pengerjaan sangat terhambat pada implementasi mmap untuk multithreading yang tidak ada pada weekly demo
+
+Kelebihan :
+- Lebih paham bagaimana semafor bekerja untuk menghindari terjadinya race condition dalam mengakses memori yang sama bersamaan
+- Lebih paham penggunaan semafor biasa dengan semafor untuk mutex
+- Lebih paham cara memetakan sebuah file ke memory di bahasa C dengan menggunakan mmap
+
+Kekurangan :
+- Lebih susah memahami soal dibandingkan memahami langsung dengan melihat programnya
+- Beberapa nilai kurang jelas dapat dari mana seperti “TIME[16]”, baru menjadi jelas setelah terdapat salah satu peserta ujian yang menanyakan melalui forum di scele 
 
 
 Penjelasan (dugaan) mengenai hal-hal berikut:
