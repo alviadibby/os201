@@ -1,3 +1,4 @@
+REV04 Tue Aug 04 21:30:00 WIB 2020
 REV03 Mon Aug 03 22:34:00 WIB 2020
 REV02 Thu Jul 30 22:54:00 WIB 2020
 REV01 Tue Jul 28 22:59:00 WIB 2020
@@ -94,6 +95,24 @@ Kekurangan:
 - Requirement soal agak kurang dijabarkan. Di soal, dikatakan bisa menggunakan implementasi sendiri, tetapi jika implementasinya beda, nilai akan dikurangi.
 - Waktu yang diberikan tidak sebanyak tugas-tugas sebelumnya.
 - Lompatan materi yang lumayan besar dari tahap sebelumnya.
+
+6) Tahap 5:
+Kendala:
+- Kurang pemahaman tentang FUSE
+- Kurang mengerti perintah soal dan sulit memahami berkas-berkas yang diberikan
+
+Kelebihan:
+- Mahasiswa menjadi lebih tahu salah satu implementasi FUSE
+- Termasuk mudah apabila sudah mengerti materi FUSE
+- Sudah ada dokumentasi terkait soal
+
+Kekurangan:
+- Kurang penjelasan teknis
+- Dokumentasi terkait soal sulit dimengerti
+- Perubahan jenis tugas dari kelompok menjadi individu di mana pada tahap 2 - 4 merupakan tugas kelompok
+- Waktu pengerjaan singkat
+- Perubahan bobot nilai menjadi bergantung pada hasil pekerjaan
+- Sumber belajar hanya materi
 
 
 Penjelasan (dugaan) mengenai hal-hal berikut:
