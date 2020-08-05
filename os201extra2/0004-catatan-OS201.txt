@@ -1,3 +1,4 @@
+REV05 Wed Aug 05 21:44:00 WIB 2020
 REV04 Tue Aug 04 21:30:00 WIB 2020
 REV03 Mon Aug 03 22:34:00 WIB 2020
 REV02 Thu Jul 30 22:54:00 WIB 2020
@@ -25,7 +26,7 @@ Kelebihan:
 - Terdapat log untuk memantau kesalahan
 
 Kekurangan:
-- Kurangnya penjelasan mengenai tujuan persiapan dan gambaran pelaksanaan UAS
+- Kurang penjelasan mengenai tujuan persiapan dan gambaran pelaksanaan UAS
 - Langkah pengerjaan ditulis bergabung dengan penjelasan persiapan sehingga terlihat terlalu padat
 - File copy paste langsung ke github.com dapat menyebabkan error
 
@@ -60,18 +61,19 @@ Kekurangan:
 4) Tahap 3:
 Kendala:
 - Hanya beberapa orang yang mengerti dan juga aktif dalam kelompok karena sudah dikelompokan berdasarkan status 
-- Sulit untuk koordinasi revisi saat diminta ke seluruh anggota kelompok. Kadang ada yang sulit dihubungi, menyerah, atau ada keperluan lainnya.
-- Kurang memahami materi dan sulit mengimplementasikan hal yg sudah dipelajari
-- Requirement penilaian tak dijabarkan
+- Sulit untuk koordinasi revisi saat diminta ke seluruh anggota kelompok.
+- Beberapa anggota kelompok ada yang sulit dihubungi, menyerah, atau ada keperluan lainnya.
+- Kurang memahami materi dan sulit mengimplementasikan hal yang sudah dipelajari
+- Requirement penilaian tidak dijabarkan
 - Sudah mulai kehilangan motivasi untuk mengerjakan, karena sudah ingin liburan.
 - Kelompok yang kurang bisa diajak kerja sama karena semuanya tidak ada yang memahami materi sehingga perlu lebih extra bertanya-tanya kelompok lain untuk memahami soal
 - Banyak instruksi dan file yang bersifat ambigu sehingga menyulitkan peserta ujian
 
 Kelebihan:
-- Mahasiswa sudah terbiasa dengan tahap 2. Karena mirip dengan tahap 2, maka sudah familiar sehingga lebih mudah untuk mengerjakan tahap 3.
+- Mahasiswa sudah terbiasa dengan tahap 2. Karena mirip dengan tahap 2, maka sudah familiar sehingga lebih mudah untuk mengerjakan tahap 3
 - Mahasiswa dengan status TERM3 deadline waktunya panjang dan soalnya tidak beda jauh dengan tugas 2
 - Tugas dikerjakan secara berkelompok
-- Mendapatkan ilmu yang lebih dalam lagi mengenai semaphore 
+- Mendapatkan ilmu yang lebih dalam lagi mengenai semaphore
 
 Kekurangan:
 - Perintah/revisi soal yang keluar saat berjalannya ujian dapat membingungkan
@@ -92,9 +94,9 @@ Kelebihan:
 
 Kekurangan: 
 - Hanya ada satu file yang perlu diedit sehingga pembagian tugas sulit
-- Requirement soal agak kurang dijabarkan. Di soal, dikatakan bisa menggunakan implementasi sendiri, tetapi jika implementasinya beda, nilai akan dikurangi.
-- Waktu yang diberikan tidak sebanyak tugas-tugas sebelumnya.
-- Lompatan materi yang lumayan besar dari tahap sebelumnya.
+- Requirement soal agak kurang dijabarkan. Di soal, dikatakan bisa menggunakan implementasi sendiri, tetapi jika implementasinya beda, nilai akan dikurangi
+- Waktu yang diberikan tidak sebanyak tugas-tugas sebelumnya
+- Lompatan materi yang lumayan besar dari tahap sebelumnya
 
 6) Tahap 5:
 Kendala:
@@ -102,14 +104,14 @@ Kendala:
 - Kurang mengerti perintah soal dan sulit memahami berkas-berkas yang diberikan
 
 Kelebihan:
-- Mahasiswa menjadi lebih tahu salah satu implementasi FUSE
+- Mahasiswa lebih memahami salah satu implementasi FUSE
 - Termasuk mudah apabila sudah mengerti materi FUSE
 - Sudah ada dokumentasi terkait soal
 
 Kekurangan:
 - Kurang penjelasan teknis
 - Dokumentasi terkait soal sulit dimengerti
-- Perubahan jenis tugas dari kelompok menjadi individu di mana pada tahap 2 - 4 merupakan tugas kelompok
+- Perubahan jenis tugas (dari kelompok menjadi individu)
 - Waktu pengerjaan singkat
 - Perubahan bobot nilai menjadi bergantung pada hasil pekerjaan
 - Sumber belajar hanya materi
@@ -139,15 +141,15 @@ Git adalah version control system yang digunakan para developer untuk mengembang
 Fungsi utama git yaitu mengatur versi dari source code program Anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti.
 
 Perintah-perintah dasar git:
-Git init : untuk membuat repository pada file lokal yang nantinya ada folder .git
-Git status : untuk mengetahui status dari repository lokal
-Git add : menambahkan file baru pada repository yang dipilih
-Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
-Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.
-Git branch : melihat seluruh branch yang ada pada repository
-Git checkout : menukar branch yang aktif dengan branchyang dipilih
-GIt merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
-Git clone : membuat Salinan repository lokal
+Git init: untuk membuat repository pada file lokal yang nantinya ada folder .git
+Git status: untuk mengetahui status dari repository lokal
+Git add: menambahkan file baru pada repository yang dipilih
+Git commit: untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+Git push: untuk mengirimkan perubahan file setelah di commit ke remote repository.
+Git branch: melihat seluruh branch yang ada pada repository
+Git checkout: menukar branch yang aktif dengan branchyang dipilih
+Git merge: untuk menggabungkan branch yang aktif dan branch yang dipilih
+Git clone: membuat salinan repository
 
 4) GitHub
 GitHub adalah sebuah aplikasi berbasis website dengan Version Control System (VCS) yang menyediakan layanan untuk menyimpan repository dengan gratis.
@@ -174,7 +176,7 @@ Dengan model enkripsi yang digunakan pada GPG, seseorang pasti mempunyai sepasan
 7) SHA1SUM
 SHA1SUM adalah program/perintah yang menghitung dan memverifikasi hash yang menggunakan SHA1 (Secure Hash Algorithm 1).
 Program ini sudah terpasang pada sebagian besar sistem operasi yang menggunakan Linux.
-Pada UAS OS genap 2020, file “SHA1SUM” digunakan sebagai berkas yang menyimpan hash berkas-berkas yang diupload di GitHub.
+Pada UAS OS genap 2020, file SHA1SUM�digunakan sebagai berkas yang menyimpan hash berkas-berkas yang diupload di GitHub.
 Melalui berkas tersebut, kita bisa mengetahui apakah file tersebut adalah file original atau bukan karena jika ada berkas yang diubah sedikitpun (termasuk waktu pembuatan), file tersebut akan menerima hash yang berbeda.
 
 8) SHA1SUM.asc
