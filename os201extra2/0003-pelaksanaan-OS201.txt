@@ -1,3 +1,4 @@
+REV02 Thu Aug 06 22:19:00 WIB 2020
 REV01 Thu Jul 23 22:21:00 WIB 2020
 ==================================
 
@@ -98,3 +99,12 @@ UAS lainnya
 10b) Tiap topik memiliki nilai maksimum sehingga tidak perlu mengerjakan semuanya.
 10c) Terdapat banyak soal-soal yang belum pernah diajarkan sebelumnya sehingga mahasiswa dituntut untuk mencari solusi di Google
 10d) Waktu pengerjaan adalah 3 jam
+
+
+Hasil Zoom (06-08-2020)
+Saran Pelaksanaan OS201
+=======================
+- Penggunaan Zoom untuk tanya jawab demo dan materi seperti salah satu mata kuliah Statistika dan Probabilitas yang mengadakan zoom meeting setiap waktu perkuliahan.
+- Mengupload hasil pertemuan Zoom di scele atau di youtube karena ada beberapa mahasiswa pada waktu tersebut tidak dapat ikut dalam Zoom karena masalah koneksi, sehingga jika hasil pertemuan tersebut di upload maka yg tidak ikut tetap bisa mengikuti.
+- Melakukan forum wajib seperti Mata kuliah basis data, dimana dalam forum tersebut juga dinilai dan dari forum tersebut kita juga bisa mengkoreksi atau mengetahui jawaban yg bener baik dari teman atau pun dari dosen
+
